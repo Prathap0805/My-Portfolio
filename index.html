@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04187ef538.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo-name">Prathap.V</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certification">Certifications</a></li>
+                <li><a href="#Projects">Projects</a></li>    
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Prathap V B</span><br> I'm a <span class="text"></span></h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pimages/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a passionate Frontend Developer with a keen interest in creating beautiful and functional web applications. I love to design and develop user-friendly interfaces that provide an excellent user experience.</p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                <ul>    
+                    <li><span>Java</span><br>Expert in problem solving and strong in Java basics and OOP concepts & its implementations</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Frontend Devepment</span><br>Skilled in HTML/CSS and JavaScript And also know about basics of database connectivity.</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                <ul>    
+                    <li><span>2025 - Present</span><br>Pursing UG Degree B.E-CSE in Dhirajlal Gandhi College of Technology,Salem,Tamil Nadu </li>
+                    <li><span>2022</span><br>Completed Higher Secondary Education at S.S.V Matriculation School,Kuttapatti,Salem</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                <ul>    
+                    <li><span>Learning</span><br>Learning about New Technologies</li>
+                    <li><span>Ideas & Creations</span><br>Create New Design interfaces</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------Certifications-------------->
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Programming in Java</h2>
+                <p>Successfully completed the Programming in Java course offered by NPTEL, gaining strong foundational and advanced skills in Java programming including OOP concepts, exception handling, multithreading, and GUI development.</p>
+                <a href="https://www.linkedin.com/posts/prathap-v-73a385315_java-nptel-certification-activity-7343303655351078913-fiz_?utm_source=share&utm_medium=member_android&rcm=ACoAAE_3od4Bq-4KrRxfAnSashfL8WuIKHuK-zg">Learn More</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>UI/UX</h2>
+                <p>Craete Web Design page like user interfaces designs familier tools like figma , WordPrass , Adobe XD , Canva , 
+                    Uizard , PhotoShop and AI Tools. Conducted by NoviTech R&D Private Limited</p>
+                <a href="#">Learn More</a>
+            </div>
+             <div>
+                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Bootcamps</h2>
+                <p>Successfully completed intensive bootcamps on JavaScript, React, Node.js, and Figma by LetsUpgrade, gaining basics of frondend fumdamentals and UI/UX design</p>
+                <a href="#">Learn More</a>
+            </div>
+         </div>  
+     </div>
+</div>
+<!----------Projects-------------->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="Pimages/Project 1.png">
+                <div class="layer">
+                    <h3>Food Restaurant Webpage</h3>
+                    <p>A responsive restaurant website designed to showcase menu, locations, and online ordering features. 
+                        The site highlights vibrant visuals, user-friendly navigation, and engaging content for a real-world food business.</p>
+                        <a href="https://boisterous-fairy-cee6ed.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+             <div class="projects">
+                <img src="Pimages/Project 2.png">
+                <div class="layer">
+                    <h3>To-Do List</h3>
+                    <p>A task management app that helps users stay productive by adding, tracking, and managing daily tasks.
+                         The app includes progress tracking and a clean, modern UI.</p>
+                        <a href="https://dulcet-dango-48bec1.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+             <div class="projects">
+                <img src="Pimages/Project 3.png">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>A functional and modern calculator app with a responsive UI that performs basic arithmetic operations. 
+                        Designed with a clean dark theme for a smooth user experience.</p>
+                        <a href="https://comfy-stroopwafel-17bc37.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+ 
+<!----------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-phone"></i>9363369652</p>
+                <p><i class="fa-regular fa-paper-plane"></i>prathapv441@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/919363369652" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/prathap-v-73a385315"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Prathap0805"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Pimages/Prathap V Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form> 
+                <span id="msg"></span>           
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Prathap. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(let tablink of tablinks){ 
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby3BRhO_1RorhyNk6uqdSmQk_QkznBMXWZUH-D6XuKsqqVdaiDNSNRB8y8cO8djBgcV4g/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+             msg.innerHTML = "Message sent Successfully"
+             setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+            })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="main.js"></script>
+</body>
+</html>
+                    
+
+
